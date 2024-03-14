@@ -27,7 +27,6 @@ resource "aws_security_group" "outbound_sg" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 
-  # Additional outbound rules...
 }
 
-# Associate security groups with instances or resources as needed...
+
